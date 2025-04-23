@@ -1,0 +1,40 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:rgb(151, 133, 212);
+}
+li{color: rgb(188, 166, 43); font-style: italic; font-weight: normal;}
+a {color: rgb(133, 22, 122);
+text-decoration: none;}
+a:hover {
+    text-decoration: underline;
+    font-size: 17px;
+}
+a:visited { 
+    color: rgb(46, 46, 170);
+}
+
+/* custom */
+.bold{ font-weight:bold; font-style: normal;}
+.underline {text-decoration:underline ;}
+.homebackground { 
+    background-image: url('../Images/f7b98a9d34a11d47affeff1941ff9be6.jpg');
+    background-position: top;
+}
+.backgroundcolor{ background-color: rgb(246, 194, 234);}
+.justify {
+    text-align: justify;
+}
+
+/* all of the boxes */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 50px;
+}
